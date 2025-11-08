@@ -64,7 +64,17 @@ body {
     @apply text-4xl font-bold text-center mt-10;
 }
 
+.Hero {
+    @apply relative p-5 flex justify-center items-center w-xl mx-auto;
+}
 
+.HeroImage {
+    @apply absolute shadow-lg;
+}
+
+.HeroText {
+    @apply text-9xl font-extrabold text-first uppercase text-center;
+}
 
 
 
