@@ -1,13 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Layout from "./components/Layout";
+import Layout from "./layouts/Layout";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import Error from "./components/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    Component: <Layout />,
+    element: <Layout />,
+    errorElement : <Error />,
     children: [
       {
         index: true,
