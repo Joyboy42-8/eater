@@ -1,7 +1,7 @@
 # 🍔 FastFood React App
 
 Une application de commande rapide (style fast-food) construite avec **React**, **TailwindCSS**, **DaisyUI**, **React Router**, **React Toastify**, **Lucide React**, et **Framer Motion**.
-
+Template Inspiration : [website-design-burger](https://dribbble.com/shots/26580296-Fast-Food-Website-Design-Burger-Chain-UI-UX-Concept)
 ---
 
 ## 🚀 Objectif du projet
