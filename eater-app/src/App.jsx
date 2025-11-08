@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Error from "./components/Error";
+import Menu from "./pages/Menu";
 
 const router = createBrowserRouter([
   {
@@ -13,16 +14,20 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home/>,
+        element: <Home />,
       },
       {
         path: "/cart",
-        element: <Cart/>,
+        element: <Cart />,
       },
       {
         path: "/checkout",
-        element: <Checkout/>,
+        element: <Checkout />,
       },
+      {
+        path: "/menu",
+        element: <Menu />,
+      }
     ],
   }
 ]);
