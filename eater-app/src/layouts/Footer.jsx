@@ -6,6 +6,7 @@ export default function Footer() {
         <footer className="Footer">
             <Nav className="FooterNav" />
             <SocialLinks />
+            <FooterImage />
         </footer>
     );
 }
@@ -22,4 +23,14 @@ function SocialLinks() {
             <p className="Copyright">Eater App &copy; 2025 | Joyboy42-8</p>
         </div>
     );
+}
+
+function FooterImage() {
+  return (
+    <img
+      src="/Fresh_Burger-removebg-preview.png"
+      alt="Footer Burger Image"
+      className="FooterImage"
+    />
+  );
 }

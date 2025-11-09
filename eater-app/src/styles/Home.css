@@ -1,0 +1,113 @@
+/* Main Content Home */
+.Home {
+    @apply relative;
+}
+
+.Hero {
+    @apply relative p-5 flex justify-center items-center w-xl mx-auto mt-10;
+}
+
+.HeroImage {
+    @apply absolute w-full;
+}
+
+.HeroText {
+    @apply text-[200px] leading-40 font-extrabold text-first uppercase text-center;
+}
+
+.Grid {
+    @apply grid grid-cols-3 gap-5;
+}
+
+.History {
+    @apply bg-third rounded-xl flex justify-center gap-5 items-center col-span-3;
+}
+
+.HistoryImage {
+    @apply -rotate-10;
+}
+
+.HistoryText {
+    @apply flex flex-col gap-5 w-xl;
+}
+
+.HistoryText h3 {
+    @apply text-6xl font-extrabold text-first;
+}
+
+.HistoryText p {
+    @apply text-xl;
+}
+
+.HistoryTwo, 
+.HistoryThree {
+    @apply relative bg-first rounded-xl p-8 overflow-hidden shadow-lg flex flex-col justify-start;
+}
+
+.HistoryTwo h3 {
+    @apply text-2xl md:text-5xl font-bold w-48 text-third mb-4;
+}
+
+.HistoryThree h3 {
+    @apply text-2xl md:text-5xl font-bold w-64 text-third mb-4;
+}
+
+.Badge {
+    @apply absolute top-4 right-4 text-first bg-third p-2 rounded-full shadow-md flex items-center justify-center;
+}
+
+.HistoryTwo img {
+    @apply absolute -bottom-40 -right-8 w-32 md:w-48 lg:w-56 object-contain;
+}
+
+.HistoryThree {
+    @apply col-span-2;
+}
+
+.HistoryThree img {
+    @apply absolute -bottom-44 -right-1 object-contain;
+}
+
+.Argument {
+    @apply mt-5 container mx-auto relative;
+}
+
+.Argument div {
+    @apply text-6xl font-extrabold text-first text-justify max-w-2xl mx-auto;
+}
+
+.Argument img {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2xl;
+}
+
+.Avis {
+    @apply bg-third text-first rounded-lg p-5 flex justify-center items-center gap-20;
+}
+
+.Avis img {
+    @apply h-96 rounded-lg;
+}
+
+.Avis p {
+    @apply w-96 font-extrabold text-4xl;
+}
+
+.Avis section {
+    @apply flex flex-col gap-10;
+}
+
+.Avis div {
+    @apply flex justify-between items-center;
+}
+
+.Avis h4 {
+    @apply text-xl text-black;
+}
+
+.Avis aside {
+    @apply text-4xl font-bold;
+}
+
+.Avis aside > span:last-child {
+    @apply opacity-55;
+}

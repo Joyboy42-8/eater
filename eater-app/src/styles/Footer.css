@@ -1,0 +1,25 @@
+/* Footer */
+.Footer {
+    @apply w-full flex flex-col items-start 
+        bg-third rounded-tl-2xl p-10 ml-32 gap-5 mt-20 relative overflow-hidden;
+}
+
+.FooterNav {
+    @apply flex gap-5 items-center;
+}
+
+.SocialLinks {
+    @apply flex gap-25 items-center border-t;
+}
+
+.SocialLinks div {
+    @apply flex gap-5 items-center mt-10;
+}
+
+.Copyright {
+    @apply self-end italic;
+}
+
+.FooterImage {
+    @apply absolute -bottom-96 right-3 w-xl -rotate-10;
+}
