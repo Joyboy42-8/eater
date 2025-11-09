@@ -33,5 +33,5 @@ body {
 }
 
 .Title {
-    @apply text-4xl font-bold text-center mt-10;
+    @apply text-4xl font-bold text-center;
 }
